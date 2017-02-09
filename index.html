@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"><meta>
+	<title>Star Wars RPG</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+	<h1>Star Wars RPG</h1>
+	<br>
+	<div id="wrap">
+		<div id="charOpt">
+			<button class="allchars" id="obik">
+				<p id="obiName"></p>
+				<img src="assets/images/obi-wan.jpg">
+				<p id="obipt"></p>
+			</button >
+			<button class="allchars" id="lukes">
+				<p id="lukeName"><span></span></p>
+				<img src="assets/images/lukeskywalker.jpg">
+				<p id="lukept"></p>
+			</button>
+			<button class="allchars" id="sid" >
+				<p id="sidName"><span></span></p>
+				<img src="assets/images/sidious.jpg">
+				<p id="sidpt">></p>
+			</button>
+			<button class="allchars" id="maul">
+				<p id="maulName"><span></span></p>
+				<img src="assets/images/maul.jpg">
+				<p id="maulpt"></p>
+			</button>  
+		</div>
+	</div>
+	<div>
+		<h3 id="yourText"></h3>
+		<div id="yourChar"></div>
+	</div>
+	<br>
+	<h3 id="enemiesAvai"></h3>
+	<div id="enemy"> </div>
+	<br> <br>
+	<h2>Fight Section</h2>
+	<button id="att">Attack</button>
+	<h3>Defender</h3>
+	<div id="defender"></div>
+	<div id="winlose"></div>
+
+	<div id="restart"></div>
+
+	<div id="charLossPt"></div>
+	<div id="defLossPt"></div>
+	
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

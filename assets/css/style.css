@@ -1,0 +1,55 @@
+body {
+	background-image: url("starwarbg.jpg");
+	color: white;
+}
+
+img {
+	width: 80px;
+	height: 80px;
+}
+
+h1 {
+	font-size: 26px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 17px;
+}
+
+.enemies{
+	background-color: red;
+}
+
+.allchars{
+	border: 2px solid green;
+}
+
+.normal {
+	border: 2px solid green;
+	background-color: white;	
+}
+
+.red {
+	background-color: red;
+	border: 2px solid black;
+}
+
+.black {
+	background-color: black;
+	border: 2px solid green;
+	color: white;
+}
+
+.hidden{
+	display: none;
+}
+
+#winlose {
+	font-size: 20px;
+	font-weight: bold;
+}
